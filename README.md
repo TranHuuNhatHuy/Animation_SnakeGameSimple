@@ -5,7 +5,7 @@ A simple automatic snake game animation on Python.
 One of the earliest games in the history, Snake, just as simple as its name, is a game where you control an entity resembling a moving snake who leaves trail behind its path. There will be "preys" randomly appear on the arena, and you 1must hunt them as many as possible while skillfully avoid the arena border, as well as the snake’s own body. With this animation project, I plan to make a Snake game that:
 - The arena is a two-dimensional space annotated with ’.’ symbols.
 - The snake will have 2 parts: the head, annotated with ’A’, and the body, annotated with multiple ’1’. In this game, the snake is being controlled automatically by algorithm.
-- The prey, annotated by ’P’, will be randomly generated anew each time the snake eats the older prey. The animation stops when snake finishes eating all MAX PREY preys.
+- The prey, annotated by ’P’, will be randomly generated anew each time the snake eats the older prey. The animation stops when snake finishes eating all MAX_PREY preys.
 ## 1.2. Variables
 ### 1.2.1. Arena’s initial stats:
 - ARENA_HEIGHT and ARENA_WIDTH: height and width of the arena respectively. Here I set them 10 each.
